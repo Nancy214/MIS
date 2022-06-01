@@ -1,10 +1,18 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
+import Login from './components/Login';
 
 const App = () => {
   return (
-    <div className="App">
-      Welcome
-    </div>
+    
+      <>
+        <main className='py-3'>
+          <Container>
+            <Login/>
+          </Container>
+        </main>
+      </>
+    
   );
 }
 
