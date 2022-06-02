@@ -8,4 +8,5 @@ const router = express.Router()
 //auth user and get token
 router.post('/login', authUser)
 
+
 export default router

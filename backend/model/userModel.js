@@ -21,6 +21,10 @@ const userSchema = mongoose.Schema(
       required: true,
       default: false,
     },
+    lastLogin: {
+      type: Date,
+      required: true,
+    }
   },
   {
     timestamps: true,
