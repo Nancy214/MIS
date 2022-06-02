@@ -10,7 +10,7 @@ dotenv.config()
 connectDB()
 const io = new Server({
     cors:{
-        origin: "http://localhost:5000"
+        origin: "*"
     }
 })
 const app = express()
